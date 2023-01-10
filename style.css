@@ -1,5 +1,7 @@
-tml {
+html {
   background-color: pink;
+  font-family: "Open Sans",sans-serif;
+  font-size: 12px;
 }
 
 /* styles for the body of the site */
@@ -24,8 +26,11 @@ h2 {
 
 /* styles for paragraph */
 p {
-    color: black;
+    color: palevioletred;
 }
+
+p.quotes {color: darkred;}
+
 
 /* styles for image */
 img {
