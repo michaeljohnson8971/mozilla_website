@@ -1,13 +1,9 @@
-html {
-  background-color: pink;
-  font-family: "Open Sans",sans-serif;
-  font-size: 12px;
-}
 
 /* styles for the body of the site */
 body {
+    background-color: gold;
   width: 60%;
-  background-color: lightgrey;
+  background-color: lightsteelblue;
   padding: 0 20px 20px 20px;
   margin-top: 25px;
   margin-left: auto;
@@ -16,7 +12,7 @@ body {
 
 /* styles for headline */
 h1 {
-  color: black;
+  color: blueviolet;
 }
 
 /* styles for subheadline */
@@ -26,11 +22,12 @@ h2 {
 
 /* styles for paragraph */
 p {
-    color: palevioletred;
+    color: black;
 }
 
-p.quotes {color: darkred;}
-
+/* sytels for quote paragrpah  */
+p.quote {color: darkred; font-size: 35px; font-family: sans-serif;}
+#main-quote.quote {border-style: solid;olor: darkred; font-size: 35px; font-family: sans-serif;}
 
 /* styles for image */
 img {
